@@ -1,0 +1,21 @@
+{
+  "name": "d3_sd_map",
+  "version": "1.0.0",
+  "description": "Interactive D3 map of San Diego County, divided into subregions",
+  "main": "index.html",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "WIC (Victoria) Do <victoriado@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.3.5",
+    "serve-static": "^1.9.2",
+    "datamaps": "~0.3.6"
+  },
+  "dependencies": {
+    "dotenv": "^1.1.0",
+    "express": "~4.12.3",
+    "pg": "~4.3.0"
+  }
+}
